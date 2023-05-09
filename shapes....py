@@ -4,12 +4,10 @@ import math
 
 
 class AreaPerimeter():
-
-
     def triangle(self):
-        a, b, c = map(int(input("Enter 3 sides\n").split()))
+        a,b,c=map(int,input("enter three sides\n").split())
         s = (a + b + c) / 2
-        area = math.sqrt(s * (s - a)(s - b)(s - c))
+        area = math.sqrt(s * (s - a)*(s - b)*(s - c))
         perimeter = a + b + c
         return area, perimeter
 
@@ -26,13 +24,13 @@ class AreaPerimeter():
         return area, perimeter
 
     def rectangle(self):
-        l, b = map(int(input("Enter length and breadth\n").split()))
+        l, b = map(int,input("Enter length and breadth\n").split())
         area = l * b
         perimeter = 2 * (l + b)
         return area, perimeter
 
 
-shape = input("Enter the shape\n1.triangle\n2.Triangle\n3.Square\n4.Rectangle\n")
+shape = input("Enter the shape\n1.triangle\n2.circle\n3.Square\n4.Rectangle\n")
 shape_object = AreaPerimeter()
 if shape == "1":
     print(shape_object.triangle())
