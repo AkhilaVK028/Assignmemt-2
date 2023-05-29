@@ -1,0 +1,32 @@
+
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+   }
+  
+  
+  li b {
+    display: block;
+    font-style: italic;
+    font-size: larger;
+    width: 60px;
+    color: rgb(243, 9, 9);
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li b:hover:not(.active) {
+    background-color: #5c767a;
+  }
+  
+  .active {
+    background-color: #333;
+  }
+  
+  
+

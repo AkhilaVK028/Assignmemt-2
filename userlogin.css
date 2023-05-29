@@ -1,0 +1,27 @@
+.top-right-picture
+
+    
+  
+  form input,form button{
+    display: block;
+    margin-bottom: 50px;
+    width: 100%; 
+    background-color: blueviolet;
+    position: 0;
+
+  }
+  h3{
+    text-align: center;
+  }
+  
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h3{
+    font-size: 80px;
+ 
+   }
